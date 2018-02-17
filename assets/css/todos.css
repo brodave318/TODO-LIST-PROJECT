@@ -3,6 +3,8 @@ body {
   background: -webkit-linear-gradient(bottom, #ffa751, #ffe259);
   background: -o-linear-gradient(bottom, #ffa751, #ffe259);
   background: linear-gradient(to top, #ffa751, #ffe259);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  height: 83.3vh;
   font-family: 'Roboto', sans-serif;}
 
 #container {
@@ -30,6 +32,7 @@ input {
   background-color: #f7f7f7;
   width: 100%;
   padding: 13px 20px;
+  border: 3px solid rgba(0, 0, 0, 0);
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -38,7 +41,7 @@ input {
 
 input:focus {
   background-color: #fff;
-  border: 3px solid rgba(0, 0, 0, 0);
+  border: 3px solid #2880b9;
   outline: none;
 }
 
